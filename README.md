@@ -1,9 +1,5 @@
 # Heart Disease Prediction ML Project
 
-<p align="center">
-  <img src="output/target_distribution.png" alt="Target Distribution" width="700" />
-</p>
-
 This project trains and compares multiple machine learning models to predict heart disease from the provided heart attack dataset.
 
 ## What it does
@@ -58,6 +54,56 @@ python heart_disease_ml.py
 ## Output
 
 When the script runs, it prints dataset information, model comparison results, and patient-level predictions in the terminal. It also creates plots for data exploration and model analysis.
+
+## Generated Charts
+
+### 1. Heart Attack Distribution in Dataset
+
+Bar chart and pie chart showing the class distribution.
+
+<p align="center">
+  <img src="output/target_distribution.png" alt="Heart Attack Distribution bar chart and pie chart" width="700" />
+</p>
+
+### 2. Model Comparison - Accuracy and F1-Score
+
+Grouped bar chart comparing model accuracy and F1-score.
+
+<p align="center">
+  <img src="output/accuracy_f1_comparison.png" alt="Accuracy and F1-score grouped bar chart" width="700" />
+</p>
+
+### 3. All Metrics Comparison Across Models
+
+Grouped bar chart showing accuracy, precision, recall, and F1-score.
+
+<p align="center">
+  <img src="output/all_metrics_comparison.png" alt="All metrics grouped bar chart" width="700" />
+</p>
+
+### 4. Confusion Matrices for All Models
+
+Heatmap chart showing the confusion matrix for each classifier.
+
+<p align="center">
+  <img src="output/confusion_matrices.png" alt="Confusion matrices heatmap chart" width="700" />
+</p>
+
+### 5. Feature Importance (Random Forest)
+
+Horizontal bar chart showing the importance of each feature in the Random Forest model.
+
+<p align="center">
+  <img src="output/feature_importance_rf.png" alt="Random Forest feature importance horizontal bar chart" width="700" />
+</p>
+
+### 6. Model Performance Radar Chart
+
+Radar or spider chart comparing all models across the main metrics.
+
+<p align="center">
+  <img src="output/radar_chart.png" alt="Model performance radar chart" width="700" />
+</p>
 
 ## Disclaimer
 
